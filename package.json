@@ -1,41 +1,25 @@
 {
   "name": "boombox-dashboard",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A Dashboard for interacting with the Discord bot Boombox",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boombox-Discord/Dashboard.git"
+  },
+  "author": "Boombox-Dev",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Boombox-Discord/Dashboard/issues"
+  },
+  "homepage": "https://github.com/Boombox-Discord/Dashboard#readme",
   "dependencies": {
-    "bootstrap-vue": "^2.1.0",
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vue-class-component": "^8.0.0-0",
-    "vue-router": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "@babel/polyfill": "^7.7.0",
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^7.0.0",
-    "bootstrap": "^4.3.1",
-    "eslint": "^6.7.2",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.0.0",
-    "mutationobserver-shim": "^0.3.3",
-    "popper.js": "^1.16.0",
-    "portal-vue": "^2.1.6",
-    "prettier": "^2.2.1",
-    "sass": "^1.19.0",
-    "sass-loader": "^8.0.0",
-    "typescript": "~4.1.5"
+    "btoa": "^1.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
   }
 }
