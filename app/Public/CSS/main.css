@@ -1,0 +1,16 @@
+body {
+    background-color: #030612;
+}
+
+.custom-bg {
+    background-color: #060C23 !important;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #0F1D57 !important;
+    border: none;
+}

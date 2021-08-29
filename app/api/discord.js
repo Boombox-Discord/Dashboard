@@ -59,4 +59,13 @@ router.get('/callback', async(req, res) => {
     res.redirect('/')
 })
 
+router.get('/logout', (req,res) => {
+    res.clearCookie('token');
+    res.clearCookie('loggedIn');
+    res.clearCookie('username');
+    res.clearCookie('imgurl');
+    res.clearCookie('userID');
+    res.redirect('/')
+})
+
 module.exports = router;
